@@ -37,7 +37,7 @@ Five modelling approaches were applied and compared:
 | Generalised additive model | GAM |
 | Extreme gradient boosting | XGBoost |
 
-Predictor variables were categorised as low / within reference range / high using published reference intervals. Model performance was assessed on the held-out test set using AUROC, AUPRC, and Brier score (all with bootstrapped 95% CIs).
+Predictor variables were categorised as low / within reference range / high using reference intervals. Model performance was assessed on the held-out test set using AUROC, AUPRC, and Brier score (with 95% CIs).
 
 ---
 
