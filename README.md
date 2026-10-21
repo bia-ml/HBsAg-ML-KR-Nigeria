@@ -80,6 +80,6 @@ Ethical approvals were obtained from the Institutional Review Board of the Niger
 ## Related Work
 
 - Ajuwon BI, Yujuico I, Roper K, Richardson A, Lidbury B. (2021). Hepatitis B virus infection in Nigeria: a systematic review and meta-analysis of data published between 2010 and 2019. *BMC Infectious Diseases* 21, 1120. https://doi.org/10.1186/s12879-021-06800-6
-- Ajuwon BI, Richardson A, Roper K, Sheel M, Audu R, et al. (2023). Development of a machine learning algorithm for early detection of viral hepatitis B infection in Nigerian patients. *Scientific Reports* 13, 3244.
-- Ajuwon BI, Richardson A, Roper K, Lidbury B. (2023). Clinical validity of a machine learning decision support system for early detection of hepatitis B virus: a binational external validation study. *Viruses* 15, 1735.
+- Ajuwon BI, Richardson A, Roper K, Sheel M, Audu R, et al. (2023). Development of a machine learning algorithm for early detection of viral hepatitis B infection in Nigerian patients. *Scientific Reports* 13, 3244. https://doi.org/10.1038/s41598-023-30440-2
+- Ajuwon BI, Richardson A, Roper K, Lidbury B. (2023). Clinical validity of a machine learning decision support system for early detection of hepatitis B virus: a binational external validation study. *Viruses* 15, 1735. https://doi.org/10.3390/v15081735
 - InteKRator toolbox: https://gitlab.com/dapel1/intekrator_toolbox
