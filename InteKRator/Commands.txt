@@ -1,0 +1,18 @@
+PRELIMINARIES: 
+- JAVA NEEDS TO BE AVAILABLE THROUGH THE "java" COMMAND
+- THE COMPILED INTEKRATOR TOOLBOX NEEDS TO BE AVAILABLE AS .jar FILE IN THE SAME FOLDER AS THE DATA FILES
+
+Command for learning a knowledge base from the data:
+java -jar InteKRator.jar -progress details -learn all avoid _ref discretize 1}Age_low,Age_lowMid,Age_highMid,Age_high,Age_veryHigh info any dataTraining.sa learnedKnowledgeBase.kb
+
+Command for checking the knowledge base against the training data:
+java -jar InteKRator.jar -check details dataTraining.sa learnedKnowledgeBase.kb
+
+Command for checking the knowledge base against the evaluation data:
+java -jar InteKRator.jar -check details dataEvaluation.sa learnedKnowledgeBase.kb
+
+Command for providing the inferred classes for the evaluation data:
+java -jar InteKRator.jar -inferMulti dataEvaluationWithoutOutcomeColumn.s learnedKnowledgeBase.kb InferredClasses.txt
+
+Command for providing the inferred classes for the evaluation data with explanations:
+java -jar InteKRator.jar -inferMulti why dataEvaluationWithoutOutcomeColumn.s learnedKnowledgeBase.kb InferredClasses_with_Explanations.txt

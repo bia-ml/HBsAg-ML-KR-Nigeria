@@ -1,0 +1,6 @@
+PRELIMINARIES: 
+- JAVA NEEDS TO BE AVAILABLE THROUGH THE "java" COMMAND
+- THE COMPILED DATESPLITTER NEEDS TO BE AVAILABLE AS .jar FILE IN THE SAME FOLDER AS THE DATA FILES
+
+Command for data splitting:
+java -jar DataSplitter.jar data.sa trainCasesVector.csv dataTraining.sa dataEvaluation.sa
